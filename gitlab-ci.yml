@@ -1,0 +1,10 @@
+stages:
+  - build
+
+build-gradle:
+  image: gradle:jdk16
+  stage: build
+  script: "gradle bootJar"
+  artifacts:
+    paths:
+      - build/libs/*.jar
