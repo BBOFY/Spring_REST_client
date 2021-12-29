@@ -133,7 +133,7 @@ public class SponsorConsole {
         }
     }
 
-    @ShellMethod("Assign existing team to sponsor")
+    @ShellMethod("Assign existing team to sponsor ('id of assigning team')")
     @ShellMethodAvailability("currentSponsorNeededAvailability")
     public void addTeamToSponsor(Integer teamId) {
         try {
@@ -152,7 +152,7 @@ public class SponsorConsole {
         }
     }
 
-    @ShellMethod("Remove existing team from sponsor")
+    @ShellMethod("Remove existing team from sponsor ('id of removing team')")
     @ShellMethodAvailability("currentSponsorNeededAvailability")
     public void removeTeamFromSponsor(Integer teamId) {
         try {

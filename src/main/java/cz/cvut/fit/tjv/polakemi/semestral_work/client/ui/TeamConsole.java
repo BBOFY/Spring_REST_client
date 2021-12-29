@@ -129,7 +129,7 @@ public class TeamConsole {
         }
     }
 
-    @ShellMethod("Assign existing vehicle to team")
+    @ShellMethod("Assign existing vehicle to team ('id of assigning vehicle')")
     @ShellMethodAvailability("currentTeamNeededAvailability")
     public void addVehicleToTeam(Integer vehicleId) {
         try {
@@ -148,7 +148,7 @@ public class TeamConsole {
         }
     }
 
-    @ShellMethod("Remove existing vehicle from team")
+    @ShellMethod("Remove existing vehicle from team ('id of removing vehicle')")
     @ShellMethodAvailability("currentTeamNeededAvailability")
     public void removeVehicleFromTeam(Integer vehicleId) {
         try {
@@ -187,7 +187,7 @@ public class TeamConsole {
         }
     }
 
-    @ShellMethod("Assign existing sponsor to team")
+    @ShellMethod("Assign existing sponsor to team ('id of assigning sponsor')")
     @ShellMethodAvailability("currentTeamNeededAvailability")
     public void addSponsorToTeam(Integer sponsorId) {
         try {
@@ -206,7 +206,7 @@ public class TeamConsole {
         }
     }
 
-    @ShellMethod("Remove existing sponsor from team")
+    @ShellMethod("Remove existing sponsor from team ('id of removing sponsor')")
     @ShellMethodAvailability("currentTeamNeededAvailability")
     public void removeSponsorFromTeam(Integer sponsorId) {
         try {

@@ -7,3 +7,6 @@
 - klinet by mal fungovať bez problémov, avšak aby sa dokázal pripojiť k serveru, klient a server musia byť spustený v rovnakom prostredí
   (v rovnakom OS, v rovnakom VM...)
 - pre všetky možnosti klienta zadajte príkaz `help`
+- v `help` pri popise príkazov: v zátvorkách sa nachádzajú povinné argumenty v danom poradí
+
+Niekedy sa môže stať, že konzola klienta akokeby zamrzne alebo nevypísš nový riadok promptu. Vtedy stačí stlačiť enter. Bude to zrejme chyba spring-shellu
