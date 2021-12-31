@@ -8,4 +8,4 @@ build-gradle:
   artifacts:
     paths:
       - build/libs/*.jar
-    expire_in: never
+    expire_in: 5 years
