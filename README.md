@@ -1,4 +1,4 @@
-*Toto je repozitár s klientskou časťou semestrálnej práce. Serverová časť je tu: https://gitlab.fit.cvut.cz/polakemi/bi-tjv_server*
+*Toto je repozitár s klientskou časťou semestrálnej práce. Serverová časť je tu: [https://gitlab.fit.cvut.cz/polakemi/bi-tjv_server](https://github.com/BBOFY/Spring_REST_server)*
 
 **Spustenie klienta**
 
